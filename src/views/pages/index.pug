@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+html(lang="es")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    // FUENTES 
+    link(rel="preconnect" href="https://fonts.googleapis.com")
+    link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+    link(href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet") 
+
+    link(rel="stylesheet", href="css/styles.css")
+    title Single Price Grid
+  body
+
+    article.container 
+      section.container__header.header
+        h1.header__title Join our community
+        h3.header__subtitle.subtitle 30-day, hassle-free money back guarantee
+        p.header__text Gain access to our full library of tutorials along with expert code reviews. 
+        p.header__text Perfect for any developers who are serious about honing their skills.
+
+      section.container__suscribtion.suscribtion
+        h3.suscribtion__title.subtitle Monthly Subscription
+        p.suscribtion__price
+          b.suscribtion__price--number &dollar;29 
+          .
+            per month 
+        p.suscribtion__access Full access for less than &dollar;1 a day
+        a.suscribtion__button(href="#") Sign Up 
+
+      section.container__info.info 
+        h3.info__title.subtitle Why Us
+        ul.info__list
+          li.info__list--item Tutorials by industry experts
+          li.info__list--item Peer &amp; expert code review
+          li.info__list--item Coding exercises
+          li.info__list--item Access to our GitHub repos
+          li.info__list--item Community forum
+          li.info__list--item Flashcard decks
+          li.info__list--item New videos every week
+    
+    script(src="js/scripts-min.js")
